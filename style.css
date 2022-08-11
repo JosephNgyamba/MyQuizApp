@@ -1,0 +1,245 @@
+/* importation fonts */
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#85f6b8 100%, #8ed9eb 85%);
+  font-family: "Inter";
+}
+
+/* container */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.container-frame {
+  background: #ffffff;
+  text-align: center;
+  width: 572px;
+  height: 784px;
+}
+
+p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* formulaire */
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.form-element p {
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff3838;
+}
+
+.form-element label {
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+  margin-bottom: 15px;
+}
+input {
+  background: #ffffff;
+  border: 1px solid #ff3838;
+  height: 59px;
+  border-radius: 0px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+/* boutons */
+
+button {
+  width: 226px;
+  height: 59px;
+  background: #028a3d;
+  margin-top: 24px;
+}
+.btn-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*Page2 */
+
+.container-content-Quiz {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 84px;
+}
+.container-content {
+  margin-top: 84px;
+  width: 572px;
+}
+.content {
+  margin-top: 145px;
+}
+
+.form-quiz {
+  width: 491px;
+  height: 59px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  margin-top: 40px;
+}
+
+/* boutons */
+
+.button1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-2 {
+  background: #ec880c;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebdbd;
+}
+.btn-3 {
+  background: rgba(2, 138, 61, 0.42);
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #bebdbd;
+}
+
+/*form-style */
+
+.form-quiz input {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 20px;
+  width: 20px;
+  left: 19px;
+  top: 19px;
+  border-radius: 20px;
+}
+.form-quiz p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 58px;
+}
+.paragraph-quiz {
+  text-align: left;
+  font-size: 14px;
+}
+.paragraph-time {
+  float: right;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+/* Progress-bar */
+
+.progress-bar {
+  height: 10px;
+  width: 491px;
+  border-radius: 10px;
+  background: #dddddd;
+  border-radius: 10px;
+}
+.progress-Time {
+  height: 10px;
+  width: 491px;
+  border-radius: 10px;
+  background: #028a3d;
+  border-radius: 10px;
+  animation: loading 60s forwards cubic-bezier(0, 0, 0, 0);
+}
+@keyframes loading {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+/* page3*/
+
+.content h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #555555;
+}
+.content p {
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.content img {
+  height: 152.25px;
+  width: 152.25px;
+  margin-top: 50px;
+}
+.bouton-Accueil {
+  margin-bottom: 146px;
+  color: white;
+  background-color: #0880d6;
+  font-family: "Inter";
+  font-style: normal;
+  height: 59px;
+  width: 226px;
+  font-size: 20px;
+  font-weight: 500px;
+}
